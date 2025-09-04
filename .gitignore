@@ -1,39 +1,10 @@
-# ========== Unity .gitignore ==========
-
-# This ignores all Unity cache and build files
+# Good .gitignore entries
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-MemoryCaptures/
-UserSettings/
 
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# Visual Studio / JetBrains / VS Code
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-.vscode/
-
-# Unity cache artifacts
-*.apk
-*.aab
-*.db
-*.dylib
-*.so
-*.dll
-
-# ==============================
+# Keep these!
+!Assets/
+!ProjectSettings/
+!Packages/
